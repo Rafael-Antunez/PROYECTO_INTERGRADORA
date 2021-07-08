@@ -1,0 +1,84 @@
+/* Contenedor del registro */
+.container{
+    background-color: rgb(0, 171, 132);
+    height: 300px;
+    width: 400px;
+    position: relative;
+    margin:150px auto;
+    padding: 0px 30px;
+}
+.cabecera{
+    position:relative;
+    width: 400px;
+    height: 40px;
+    margin-left: -30px;
+    background-color:rgb(0, 46, 93) ;
+
+    color:white;
+    font-size:larger;
+    text-align: center;
+}
+
+
+/* menu desplegable */
+.menu{
+    width: 7%;
+    height: 5%;
+    position:fixed;
+
+    transition: .3s all;
+    z-index: 1;;
+}
+.menu ul{
+    padding: 0px;
+    text-align:center;
+}
+
+.menu li{
+    transition: .2s all;
+}
+.menu a{
+    text-decoration: none;
+    list-style:none;
+    transition: .3s all;
+    font-size:0px;
+    padding: 0px;
+}
+.menu h2{
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 0px;
+}
+.menu img{
+    padding-top: 30px;
+    width: 40px;
+}
+.menu:hover{
+    width: 20%;
+    height: 102%;
+    background-color:rgb(0, 46, 93) ;
+}
+.menu:hover h2{
+    padding: 15px;
+    font-size: 30px;
+}
+.menu:hover a{
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding:20px;
+}
+.menu:hover img{
+    height: 0px;
+}
+.menu:hover li{
+    border-top: 1px solid black;
+    width: 100%;
+}
+.menu:hover a:hover{
+    font-size: 30px;
+    padding: 30px 0px 30px 0px;
+    background-color:rgb(23, 71, 119) ;
+}
